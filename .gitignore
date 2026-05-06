@@ -1,0 +1,51 @@
+# --- Compiled Objects & Libraries ---
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.dylib
+*.lai
+*.la
+
+# --- Build Directories ---
+[Bb]uild/
+[Oo]ut/
+[Bb]in/
+# Ignore CMake build folders (e.g., build-debug, build-release)
+build-*/
+cmake-build-*/
+cmake-*/
+
+# --- IDE Specific (Visual Studio, CLion, VS Code) ---
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# --- CMake Generated Files ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+compile_commands.json
+CMakeSettings.json
+
+# --- Precompiled Headers & Linker Files ---
+*.gch
+*.pch
+*.ilk
+*.exp
+*.pdb
+*.map
+
+# --- Temporary & Log Files ---
+*.log
+*.tmp
+*.bak
+*.swp
